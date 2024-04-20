@@ -1,22 +1,20 @@
 module.exports = {
   root: true,
+  plugins: ["react"],
   env: { browser: true, es2020: true },
-  extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
-    "plugin:react-hooks/recommended",
-  ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "18.2" } },
-  plugins: ["react-refresh"],
+  extends: ["eslint:recommended"],
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   rules: {
-    "react/jsx-no-target-blank": "off",
-    "react-refresh/only-export-components": [
-      "warn",
-      { allowConstantExport: true },
-    ],
-    "react/prop-types": false,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
   },
 };
