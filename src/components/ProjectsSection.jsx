@@ -15,13 +15,13 @@ export const ProjectsSection = () => {
             ? project.description
             : useT(project.description);
         return (
-          <article key={key}>
+          <article key={key} className="grid grid-cols-1 gap-4">
             <img
               className="rounded-[10px] card-shadow bg-cover "
               src={imagePath}
               alt={`Project Image ${project.name}`}
             />
-            <div className="p-[22px]">
+            <div className="p-[22px] rounded-[10px] border border-[rgba(255, 242, 236, 1)]">
               <img
                 className="mb-[24px]"
                 src={titleImagePath}
