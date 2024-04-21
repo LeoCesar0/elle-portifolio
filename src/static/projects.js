@@ -1,7 +1,7 @@
 export const PROJECTS = [
   {
     name: "Delivery",
-    imageTitle: "delivery-title.png",
+    titleImage: "delivery-title.png",
     image: "delivery-image.png",
     description: {
       en: "Delivery App created to assist with food orders and deliveries. To make that moment easier when you need to find a quick and tasty snack",
@@ -22,7 +22,7 @@ export const PROJECTS = [
   },
   {
     name: "FoodSafe",
-    imageTitle: "food-title.png",
+    titleImage: "food-title.png",
     image: "food-image.png",
     description: {
       en: "FoodSafe is a website to find fit recipes and nearby restaurants. With a broad community to share experience",
@@ -43,7 +43,7 @@ export const PROJECTS = [
   },
   {
     name: "Lossi Landing Page",
-    imageTitle: "lossi-title.png",
+    titleImage: "lossi-title.png",
     image: "lossi-lp-image.png",
     description: {
       en: "Landing Page Lossi, is a women's cosmetics brand. Simple and easy to customize design",
@@ -64,7 +64,7 @@ export const PROJECTS = [
   },
   {
     name: "Lossi eCommerce",
-    imageTitle: "lossi-title.png",
+    titleImage: "lossi-title.png",
     image: "lossi-e-image.png",
     description: {
       en: "eCommerce Lossi, is a women's cosmetics brand. Simple and easy to customize design",

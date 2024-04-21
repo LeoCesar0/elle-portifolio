@@ -3,7 +3,7 @@ import { Logo } from "./Logo";
 
 export const Header = () => {
   return (
-    <header className="flex justify-between items-center">
+    <header className="flex justify-between items-center px-[12px]">
       <Logo />
       <IconButton>
         <img src="icons/menu.svg" />
