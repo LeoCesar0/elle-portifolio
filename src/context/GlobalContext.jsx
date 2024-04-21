@@ -11,10 +11,10 @@ const Context = createContext(null);
 export const GlobalContextProvider = ({ children }) => {
   const [state, setState] = useState(initialState);
 
-  const setLanguage = (lang) => {
+  const switchLanguage = () => {
     setState((prev) => ({
       ...prev,
-      lang: lang,
+      lang: prev.lang === "pt" ? "en" : "pt",
     }));
   };
 
@@ -22,7 +22,7 @@ export const GlobalContextProvider = ({ children }) => {
     <Context.Provider
       value={{
         ...state,
-        setLanguage,
+        switchLanguage,
       }}
     >
       {children}
