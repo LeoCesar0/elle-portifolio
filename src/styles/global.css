@@ -7,3 +7,22 @@ body {
   font-family: "Poppins", sans-serif;
   @apply bg-background text-onBackground font-normal;
 }
+
+.default-container {
+  @apply py-[20px] px-[12px];
+}
+
+.carousel__viewport {
+  padding-bottom: 8px;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  gap: 32px;
+}
+
+.carousel__slide {
+  position: relative;
+  counter-increment: item;
+}
