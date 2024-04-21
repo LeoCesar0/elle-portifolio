@@ -3,7 +3,7 @@ import { useState } from "react";
 import { createContext } from "react";
 
 const initialState = {
-  lang: "pt",
+  lang: "en",
 };
 
 const Context = createContext(null);
