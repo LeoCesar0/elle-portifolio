@@ -19,7 +19,7 @@ body {
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-  gap: 32px;
+  gap: 28px;
 }
 
 .carousel__slide {
