@@ -9,7 +9,7 @@ export const Header = () => {
       <Logo />
       <div className="flex items-center gap-5">
         <IconButton onClick={switchLanguage}>
-          <img src={`lang/${lang}.png`} width={32} height={32} />
+          <img src={`lang/${lang === 'en' ? 'pt' : 'en'}.png`} width={32} height={32} />
         </IconButton>
         <IconButton>
           <img src="icons/menu.svg" />
