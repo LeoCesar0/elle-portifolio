@@ -19,7 +19,7 @@ export const Welcome = () => {
   const tags = ["Figma", "Adobe", "React", "Javascript", "HTML", "CSS"];
 
   return (
-    <section className="mt-16 mb-[96px]">
+    <section className="mt-16">
       <div className="mb-6">
         <h1 className="font-semibold text-5xl leading-[72px] text-center mb-[24px]">
           {hello}

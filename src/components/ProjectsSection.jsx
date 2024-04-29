@@ -17,7 +17,7 @@ export const ProjectsSection = () => {
         return (
           <article key={key} className="grid grid-cols-1 gap-4">
             <img
-              className="rounded-[10px] card-shadow bg-cover "
+              className="rounded-[10px] project-card-shadow bg-cover "
               src={imagePath}
               alt={`Project Image ${project.name}`}
             />

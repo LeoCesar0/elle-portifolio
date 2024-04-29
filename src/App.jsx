@@ -1,3 +1,4 @@
+import { ConceptSection } from "./components/ConceptSection";
 import { Header } from "./components/Header";
 import { Layout } from "./components/Layout";
 import { ProjectsSection } from "./components/ProjectsSection";
@@ -8,8 +9,11 @@ function App() {
     <>
       <Layout>
         <Header />
-        <Welcome />
-        <ProjectsSection />
+        <div className="grid grid-cols-1 gap-[96px]">
+          <Welcome />
+          <ProjectsSection />
+          <ConceptSection />
+        </div>
       </Layout>
     </>
   );

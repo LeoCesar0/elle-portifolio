@@ -27,6 +27,10 @@ body {
   counter-increment: item;
 }
 
-.card-shadow {
+.project-card-shadow {
   box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-shadow {
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
 }
