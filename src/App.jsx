@@ -1,3 +1,4 @@
+import { AboutSection } from "./components/AboutSection";
 import { ConceptSection } from "./components/ConceptSection";
 import { Header } from "./components/Header";
 import { Layout } from "./components/Layout";
@@ -13,6 +14,7 @@ function App() {
           <Welcome />
           <ProjectsSection />
           <ConceptSection />
+          <AboutSection />
         </div>
       </Layout>
     </>

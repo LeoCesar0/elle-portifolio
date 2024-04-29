@@ -2,7 +2,7 @@ import { Card } from "./Card";
 
 export const ConceptSection = () => {
   return (
-    <section className="grid grid-cols-1 gap-[56px]">
+    <section className="grid grid-cols-1 gap-[56px] px-[4px]">
       <Card
         imagePath="images/responsive.svg"
         title="Responsive design"
