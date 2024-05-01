@@ -4,6 +4,7 @@ import { createContext } from "react";
 
 const initialState = {
   lang: "en",
+  menuIsOpen: false,
 };
 
 const Context = createContext(null);
@@ -17,11 +18,18 @@ export const GlobalContextProvider = ({ children }) => {
       lang: prev.lang === "pt" ? "en" : "pt",
     }));
   };
+  const toggleMenu = (value) => {
+    setState((prev) => ({
+      ...prev,
+      menuIsOpen: value === undefined ? !prev.menuIsOpen : value,
+    }));
+  };
 
   return (
     <Context.Provider
       value={{
         ...state,
+        toggleMenu,
         switchLanguage,
       }}
     >

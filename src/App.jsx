@@ -2,6 +2,7 @@ import { AboutSection } from "./components/AboutSection";
 import { ConceptSection } from "./components/ConceptSection";
 import { Header } from "./components/Header";
 import { Layout } from "./components/Layout";
+import { MobileMenu } from "./components/MobileMenu";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { Welcome } from "./components/Welcome";
 import { useT } from "./hooks/useT";
@@ -44,6 +45,7 @@ function App() {
           </div>
         </div>
       </Layout>
+      <MobileMenu />
     </>
   );
 }

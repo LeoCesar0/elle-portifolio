@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export const ProjectsSection = () => {
   return (
-    <section className="grid grid-cols-1 gap-[56px] px-[4px]">
+    <section className="grid grid-cols-1 gap-[56px] px-[4px]" id="projects">
       {PROJECTS.map((project, index) => {
         const name = project.name || "";
         const key = name + "-" + index;

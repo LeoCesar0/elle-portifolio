@@ -30,7 +30,7 @@ export const AboutSection = () => {
   // });
 
   return (
-    <section className="px-[12px]">
+    <section className="px-[12px]" id="about">
       <h1 className="font-semibold text-[48px] leading-[72px] mb-4">{title}</h1>
       <div className="mb-8 grid grid-cols-1 gap-6 text-[24px] leading-[36px]">
         <p>{text1}</p>
