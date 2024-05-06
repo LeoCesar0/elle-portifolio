@@ -23,7 +23,7 @@ export const Header = () => {
           </IconButton>
         </div>
       </div>
-      <div className="hidden md:flex gap-6 justify-between items-center p-4 h-[100px] border-border border-b-[2.5px] ">
+      <div className="hidden md:flex gap-6 justify-between items-center py-4 px-[40px] h-[100px] border-border border-b-[2.5px] ">
         <nav className="flex items-center gap-[35px]">
           {LINKS.map((item) => {
             const label = selectT(lang, item.label);
