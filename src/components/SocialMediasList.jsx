@@ -1,4 +1,5 @@
 import { SOCIAL_MEDIAS } from "../static/links";
+import { ReactSVG } from "react-svg";
 
 export const SocialMediasList = ({ main }) => {
   const list = main
@@ -17,10 +18,10 @@ export const SocialMediasList = ({ main }) => {
             className="inline-block w-[40px] h-[40px] bg-background text-white rounded-full"
           >
             <span className="sr-only">{item.label}</span>
-            <img
+            <ReactSVG
               src={`icons/${item.icon}.svg`}
               alt={item.label}
-              className="w-full h-full"
+              className="w-full h-full items-center flex"
             />
           </a>
         );
