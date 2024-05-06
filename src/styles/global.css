@@ -15,7 +15,7 @@ body {
 .carousel__viewport {
   padding-bottom: 8px;
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
