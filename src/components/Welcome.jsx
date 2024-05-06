@@ -20,11 +20,11 @@ export const Welcome = () => {
 
   return (
     <section className="mt-16 px-[4px]">
-      <div className="mb-6">
+      <div className="mb-6 md:max-w-[506px] md:mx-auto ">
         <h1 className="font-semibold text-5xl leading-[72px] text-center mb-[24px]">
           {hello}
         </h1>
-        <p className="leading-6 text-center text-onBackground/75">
+        <p className="leading-6 text-center text-onBackground/75 md:text-[24px] md:leading-[36px]">
           <strong className="font-semibold text-onBackground/75">
             {descriptionStrong}
           </strong>{" "}
