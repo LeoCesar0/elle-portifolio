@@ -28,7 +28,7 @@ export const MobileMenu = () => {
       ></div>
       <div
         className={clsx([
-          "fixed border-l border-border right-0 top-0 h-screen w-[80%] max-w-[340px] bg-background z-50 shadow-lg",
+          "fixed border-l border-border/50 right-0 top-0 h-screen w-[80%] max-w-[340px] bg-background z-50 shadow-lg",
           "transition-transform duration-300 ease-in-out transform translate-x-full",
           "px-[10px]",
           {
@@ -73,6 +73,8 @@ export const MobileMenu = () => {
                   <a
                     key={item.label}
                     href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-block w-[40px] h-[40px] bg-background text-white rounded-full"
                   >
                     <span className="sr-only">{item.label}</span>

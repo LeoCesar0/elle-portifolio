@@ -18,32 +18,32 @@ export const LINKS = [
 export const SOCIAL_MEDIAS = [
   {
     label: "Behance",
-    href: "",
+    href: "https://behance.net/izaellelavigne",
     icon: "behance",
   },
   {
     label: "GitHub",
-    href: "",
+    href: "https://github.com/ElleLavigne",
     icon: "github",
   },
   {
     label: "LinkedIn",
-    href: "",
+    href: "https://linkedin.com/in/izaelle-lavigne-18a62427a",
     icon: "linkedin",
   },
   {
     label: "Email",
-    href: "",
+    href: "mailto:izaelleavrillavigne@gmail.com",
     icon: "email",
   },
   {
     label: "Instagram",
-    href: "",
+    href: "https://www.instagram.com/izaelle00/",
     icon: "instagram",
   },
   {
     label: "WhatsApp",
-    href: "",
+    href: "https://wa.me/558698244011",
     icon: "wpp",
   },
 ];
