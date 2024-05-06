@@ -1,8 +1,9 @@
 import clsx from "clsx";
 import { useGlobalContext } from "../context/GlobalContext";
 import { Logo } from "./Logo";
-import { LINKS } from "../static/links";
+import { LINKS, SOCIAL_MEDIAS } from "../static/links";
 import { selectT } from "../helpers/selectT";
+import { TECHS } from "../static/techs";
 
 export const MobileMenu = () => {
   const { menuIsOpen, toggleMenu, lang } = useGlobalContext();
@@ -17,8 +18,8 @@ export const MobileMenu = () => {
         className={clsx([
           "fixed inset-0 bg-black/40 block z-20 ",
           {
-            ["hidden"]: !menuIsOpen,
-            ["pointer-events-none"]: !menuIsOpen,
+            ["!hidden"]: !menuIsOpen,
+            ["!pointer-events-none"]: !menuIsOpen,
           },
         ])}
         onClick={() => {
@@ -27,9 +28,11 @@ export const MobileMenu = () => {
       ></div>
       <div
         className={clsx([
-          "fixed border-l border-border right-0 top-0 h-screen w-[80%] max-w-[340px] bg-background transition-transform duration-300 ease-in-out transform translate-x-full z-50 shadow-lg",
+          "fixed border-l border-border right-0 top-0 h-screen w-[80%] max-w-[340px] bg-background z-50 shadow-lg",
+          "transition-transform duration-300 ease-in-out transform translate-x-full",
+          "px-[10px]",
           {
-            ["translate-x-0"]: menuIsOpen,
+            ["!translate-x-0"]: menuIsOpen,
           },
         ])}
         onKeyDown={(e) => {
@@ -39,23 +42,65 @@ export const MobileMenu = () => {
         }}
         tabIndex="-1"
       >
-        <div>
+        <div
+          className={clsx([
+            "flex flex-col mx-auto text-center items-center ",
+            "pt-[50px] pb-[64px] h-full",
+          ])}
+        >
           <Logo />
-          <nav>
+          <nav className="mt-[37px] grid grid-cols-1 gap-6  place-items-center text-center">
             {LINKS.map((item) => {
               const label = selectT(lang, item.label);
               return (
                 <a
+                  key={label}
                   href={item.href}
                   onClick={() => {
                     close();
                   }}
+                  className="pb-[10px] text-[24px] leading-[36px] border-b border-border"
                 >
                   {label}
                 </a>
               );
             })}
           </nav>
+          <div className="mt-auto flex flex-col gap-8 items-center justify-center">
+            <div className="flex gap-6 flex-wrap items-center justify-center">
+              {SOCIAL_MEDIAS.map((item) => {
+                return (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    className="inline-block w-[40px] h-[40px] bg-background text-white rounded-full"
+                  >
+                    <span className="sr-only">{item.label}</span>
+                    <img
+                      src={`icons/${item.icon}.svg`}
+                      alt={item.label}
+                      className="w-full h-full"
+                    />
+                  </a>
+                );
+              })}
+            </div>
+            <div className="flex flex-col items-center justify-center text-center w-full gap-4">
+              <h4 className="text-[24px] leading-[36px] font-normal">Tech</h4>
+              <div className="flex gap-2 flex-wrap items-center justify-center mt-4">
+                {TECHS.map((item) => {
+                  return (
+                    <img
+                      key={item.label}
+                      src={`icons/${item.icon}.svg`}
+                      alt={item.label}
+                      className="w-[40px] h-[40px] inline-block"
+                    />
+                  );
+                })}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
