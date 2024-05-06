@@ -13,6 +13,7 @@ export default {
         card: "#fff",
         onCard: "rgba(45, 45, 45, 1)",
         border: "rgba(75, 75, 75, 1)",
+        muted: "rgba(105, 95, 103, 1)",
       },
     },
   },

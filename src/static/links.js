@@ -20,6 +20,7 @@ export const SOCIAL_MEDIAS = [
     label: "Behance",
     href: "https://behance.net/izaellelavigne",
     icon: "behance",
+    main: true,
   },
   {
     label: "GitHub",
@@ -30,6 +31,7 @@ export const SOCIAL_MEDIAS = [
     label: "LinkedIn",
     href: "https://linkedin.com/in/izaelle-lavigne-18a62427a",
     icon: "linkedin",
+    main: true,
   },
   {
     label: "Email",
@@ -40,6 +42,7 @@ export const SOCIAL_MEDIAS = [
     label: "Instagram",
     href: "https://www.instagram.com/izaelle00/",
     icon: "instagram",
+    main: true,
   },
   {
     label: "WhatsApp",
