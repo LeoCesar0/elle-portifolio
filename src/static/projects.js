@@ -83,4 +83,25 @@ export const PROJECTS = [
       },
     ],
   },
+  {
+    name: "Aurora",
+    titleImage: "aurora-title.png",
+    image: "aurora-image.png",
+    description: {
+      en: "Mobile application for a sunglasses store. Simple design easy to customize.",
+      pt: "App mobile para loja de óculos de sol. Design simples e fácil de personalizar.",
+    },
+    tags: ["figma", "css"],
+    buttons: [
+      {
+        buttonColor: "rgba(170, 234, 241, 1)",
+        buttonTextColor: "#2d2d2d",
+        link: "https://www.figma.com",
+        text: {
+          en: "Figma",
+          pt: "Figma",
+        },
+      },
+    ],
+  },
 ];

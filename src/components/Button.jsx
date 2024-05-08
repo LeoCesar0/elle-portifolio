@@ -3,7 +3,7 @@ export const Button = ({ children, as = "button", className, ...rest }) => {
   return (
     <>
       <Component
-        className={`cursor-pointer flex items-center justify-center gap-2 w-min bg-primary text-onPrimary py-[10px] px-[25px] rounded-[10px] font-semibold text-xl ${className}`}
+        className={`cursor-pointer flex items-center justify-center gap-2 w-min bg-primary text-onPrimary py-[10px] px-[25px] rounded-[10px] font-semibold text-xl button-shadow ${className}`}
         {...rest}
       >
         {children}

@@ -28,7 +28,11 @@ export const Header = () => {
           {LINKS.map((item) => {
             const label = selectT(lang, item.label);
             return (
-              <a key={label} className="text-2xl text-muted" href={item.href}>
+              <a
+                key={label}
+                className="text-2xl text-muted hover:text-onBackground transition-colors duration-300 ease-out"
+                href={item.href}
+              >
                 {label}
               </a>
             );
