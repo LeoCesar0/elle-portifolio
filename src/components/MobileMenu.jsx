@@ -3,8 +3,8 @@ import { useGlobalContext } from "../context/GlobalContext";
 import { Logo } from "./Logo";
 import { LINKS } from "../static/links";
 import { selectT } from "../helpers/selectT";
-import { TECHS } from "../static/techs";
 import { SocialMediasList } from "./SocialMediasList";
+import { TechList } from "./TechList";
 
 export const MobileMenu = () => {
   const { menuIsOpen, toggleMenu, lang } = useGlobalContext();
@@ -74,16 +74,7 @@ export const MobileMenu = () => {
             <div className="flex flex-col items-center justify-center text-center w-full gap-4">
               <h4 className="text-[24px] leading-[36px] font-normal">Tech</h4>
               <div className="flex gap-2 flex-wrap items-center justify-center mt-4">
-                {TECHS.map((item) => {
-                  return (
-                    <img
-                      key={item.label}
-                      src={`icons/${item.icon}.svg`}
-                      alt={item.label}
-                      className="w-[40px] h-[40px] inline-block"
-                    />
-                  );
-                })}
+                <TechList />
               </div>
             </div>
           </div>

@@ -9,6 +9,7 @@ export default {
         "onBackground/75": "rgba(27, 24, 26, 0.75)",
         primary: "rgba(234, 96, 126, 1)",
         primaryHover: "rgba(227, 40, 81, 1)",
+        softPink: "rgba(253, 246, 247, 1)",
         onPrimary: "#FFFFFF",
         card: "#fff",
         onCard: "rgba(45, 45, 45, 1)",

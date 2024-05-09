@@ -15,7 +15,7 @@ export const SocialMediasList = ({ main }) => {
             href={item.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block w-[40px] h-[40px] bg-background text-white rounded-full"
+            className="inline-block w-[40px] h-[40px] text-white rounded-full"
           >
             <span className="sr-only">{item.label}</span>
             <ReactSVG

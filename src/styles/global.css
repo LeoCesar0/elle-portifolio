@@ -46,3 +46,7 @@ body {
 .button-shadow {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 }
+
+.main-container {
+  @apply py-[20px] px-[5px] mx-auto md:max-w-[1168px] md:px-[14px] md:py-[32px];
+}

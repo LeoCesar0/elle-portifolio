@@ -39,7 +39,7 @@ export const AboutSection = () => {
         </div>
       </div>
       <img
-        className="w-full h-full object-cover object-top "
+        className="w-full object-cover object-top hidden md:block"
         src="images/avatar.png"
         alt="Elle Avatar"
       />
