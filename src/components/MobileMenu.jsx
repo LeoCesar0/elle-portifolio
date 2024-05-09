@@ -73,7 +73,7 @@ export const MobileMenu = () => {
             </div>
             <div className="flex flex-col items-center justify-center text-center w-full gap-4">
               <h4 className="text-[24px] leading-[36px] font-normal">Tech</h4>
-              <div className="flex gap-2 flex-wrap items-center justify-center mt-4">
+              <div className="flex gap-2 flex-wrap items-center justify-center">
                 <TechList />
               </div>
             </div>
