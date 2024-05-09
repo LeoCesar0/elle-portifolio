@@ -24,22 +24,25 @@ export const AboutSection = () => {
     pt: "Tenho um olhar atento aos detalhes e uma paixão por criar soluções visualmente atraentes que também proporcionem uma experiência de usuário excepcional.",
   });
 
-  // const buttonText = useT({
-  //   en: "Let's talk",
-  //   pt: "Entre em contato",
-  // });
-
   return (
-    <section className="px-[12px]" id="about">
-      <h1 className="font-semibold text-[48px] leading-[72px] mb-4">{title}</h1>
-      <div className="mb-8 grid grid-cols-1 gap-6 text-[24px] leading-[36px]">
-        <p>{text1}</p>
-        <p>
-          {text2_1} <span className="font-semibold">{text2_bold}</span>.
-        </p>
-        <p>{text2_2}</p>
+    <section className="px-[12px] md:grid md:grid-cols-2" id="about">
+      <div>
+        <h1 className="font-semibold text-[48px] leading-[72px] mb-4">
+          {title}
+        </h1>
+        <div className="mb-8 grid grid-cols-1 gap-6 text-[24px] leading-[36px]">
+          <p>{text1}</p>
+          <p>
+            {text2_1} <span className="font-semibold">{text2_bold}</span>.
+          </p>
+          <p>{text2_2}</p>
+        </div>
       </div>
-      {/* <Button></Button> */}
+      <img
+        className="w-full h-full object-cover object-top "
+        src="images/avatar.png"
+        alt="Elle Avatar"
+      />
     </section>
   );
 };
