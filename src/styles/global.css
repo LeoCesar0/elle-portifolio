@@ -50,3 +50,16 @@ body {
 .main-container {
   @apply py-[20px] px-[5px] mx-auto md:max-w-[1168px] md:px-[14px] md:py-[32px];
 }
+
+.welcome-gradient {
+  background: -webkit-linear-gradient(
+    360deg,
+    #ff7a97 15.61%,
+    #e32851 20.07%,
+    #9747ff 50.56%,
+    #f24e1e 35.56%,
+    #ff3f68 40.22%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

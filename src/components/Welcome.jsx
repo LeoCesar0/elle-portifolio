@@ -6,14 +6,19 @@ export const Welcome = () => {
     pt: "Olá!",
   });
 
-  const descriptionStrong = useT({
-    en: "I'm a UX UI Designer who",
-    pt: "Sou uma UX UI Designer que",
+  const description1 = useT({
+    en: "I am a",
+    pt: "Sou uma",
   });
 
-  const description = useT({
-    en: "creates intuitive and captivating digital experiences.",
-    pt: "cria experiências digitais intuitivas e cativantes.",
+  const description2 = useT({
+    en: "who creates intuitive and captivating digital experiences.",
+    pt: "que cria experiências digitais intuitivas e cativantes.",
+  });
+
+  const descriptionDetail = useT({
+    en: "UI UX Designer",
+    pt: "UI UX Designer",
   });
 
   const tags = ["Figma", "Adobe", "React", "Javascript", "HTML", "CSS"];
@@ -25,10 +30,11 @@ export const Welcome = () => {
           {hello}
         </h1>
         <p className="leading-6 text-center text-onBackground/75 md:text-[24px] md:leading-[36px]">
-          <strong className="font-semibold text-onBackground/75">
-            {descriptionStrong}
+          {description1}{" "}
+          <strong className=" text-onBackground/75 welcome-gradient">
+            {descriptionDetail}
           </strong>{" "}
-          {description}
+          {description2}
         </p>
       </div>
       <div className="carousel">

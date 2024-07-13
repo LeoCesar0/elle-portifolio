@@ -1,6 +1,5 @@
 import { AboutSection } from "./components/AboutSection";
 import { ConceptSection } from "./components/ConceptSection";
-import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Layout } from "./components/Layout";
 import { MobileMenu } from "./components/MobileMenu";
