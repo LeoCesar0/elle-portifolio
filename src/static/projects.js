@@ -1,105 +1,76 @@
 export const PROJECTS = [
   {
-    name: "Delivery",
-    titleImage: "delivery-title.png",
-    image: "delivery-image.png",
+    name: "Adopt Pet | Mobile",
+    image: "adopt-pet.png",
     description: {
-      en: "Delivery App created to assist with food orders and deliveries. To make that moment easier when you need to find a quick and tasty snack",
-      pt: "Aplicativo de Delivery criado para auxiliar com pedidos e entregas de comida. Para tornar mais fácil aquele momento em que você precisa encontrar um lanche rápido e saboroso",
+      en: "Application to simplify animal adoption",
+      pt: "Aplicação para facilitar a adoção de animais",
     },
-    tags: ["figma"],
     buttons: [
       {
-        buttonColor: "rgba(242, 78, 30, 1)",
-        buttonTextColor: "#fff",
         link: "https://www.figma.com",
         text: {
-          en: "Figma",
-          pt: "Figma",
+          en: "view in figma",
+          pt: "view in figma",
+        },
+      },
+      {
+        link: "https://www.notion.com",
+        text: {
+          en: "study case",
+          pt: "caso de estudo",
+        },
+        type: "secondary",
+      },
+    ],
+  },
+  {
+    name: "Furniture Store",
+    image: "furniture.png",
+    description: {
+      en: "Ecommerce custom upholstery store",
+      pt: "Loja de estofados personalizados de comércio eletrônico",
+    },
+    buttons: [
+      {
+        link: "https://www.figma.com",
+        text: {
+          en: "view in figma",
+          pt: "view in figma",
         },
       },
     ],
   },
   {
-    name: "FoodSafe",
-    titleImage: "food-title.png",
-    image: "food-image.png",
+    name: "Sunflower Store",
+    image: "sunflower-store.png",
     description: {
-      en: "FoodSafe is a website to find fit recipes and nearby restaurants. With a broad community to share experience",
-      pt: "FoodSafe é um site para encontrar receitas saudáveis e restaurantes próximos. Com uma ampla comunidade para compartilhar experiências",
+      en: "Sporting goods store - Mobile version",
+      pt: "Loja de artigos esportivos - Versão mobile",
     },
-    tags: ["figma"],
     buttons: [
       {
-        buttonColor: "rgba(116, 148, 21, 1)",
-        buttonTextColor: "#fff",
         link: "https://www.figma.com",
         text: {
-          en: "Figma",
-          pt: "Figma",
+          en: "view in figma",
+          pt: "view in figma",
         },
       },
     ],
   },
   {
-    name: "Lossi Landing Page",
-    titleImage: "lossi-title.png",
-    image: "lossi-lp-image.png",
+    name: "Banco do Brasil | Remaking",
+    image: "banco-brasil.png",
     description: {
-      en: "Landing Page Lossi, is a women's cosmetics brand. Simple and easy to customize design",
-      pt: "Landing Page Lossi, é uma marca de cosméticos femininos. Design simples e fácil de personalizar",
+      en: "Remaking the design of Banco do Brasil",
+      pt: "Refazendo o design do Banco do Brasil",
     },
-    tags: ["figma"],
     buttons: [
       {
-        buttonColor: "rgba(234, 96, 126, 1)",
-        buttonTextColor: "#fff",
         link: "https://www.figma.com",
         text: {
-          en: "Figma",
-          pt: "Figma",
-        },
-      },
-    ],
-  },
-  {
-    name: "Lossi eCommerce",
-    titleImage: "lossi-title.png",
-    image: "lossi-e-image.png",
-    description: {
-      en: "eCommerce Lossi, is a women's cosmetics brand. Simple and easy to customize design",
-      pt: "eCommerce Lossi, é uma marca de cosméticos femininos. Design simples e fácil de personalizar",
-    },
-    tags: ["figma"],
-    buttons: [
-      {
-        buttonColor: "rgba(234, 96, 126, 1)",
-        buttonTextColor: "#fff",
-        link: "https://www.figma.com",
-        text: {
-          en: "Figma",
-          pt: "Figma",
-        },
-      },
-    ],
-  },
-  {
-    name: "Aurora",
-    titleImage: "aurora-title.png",
-    image: "aurora-image.png",
-    description: {
-      en: "Mobile application for a sunglasses store. Simple design easy to customize.",
-      pt: "App mobile para loja de óculos de sol. Design simples e fácil de personalizar.",
-    },
-    tags: ["figma", "css"],
-    buttons: [
-      {
-        buttonColor: "rgba(170, 234, 241, 1)",
-        buttonTextColor: "#2d2d2d",
-        link: "https://www.figma.com",
-        text: {
-          en: "Figma",
-          pt: "Figma",
+          en: "view in figma",
+          pt: "view in figma",
         },
       },
     ],

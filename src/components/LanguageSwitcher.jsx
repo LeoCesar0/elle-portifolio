@@ -7,7 +7,7 @@ export const LanguageSwitcher = () => {
     <>
       <IconButton onClick={switchLanguage}>
         <img
-          src={`lang/${lang === "en" ? "pt" : "en"}.png`}
+          src={`lang/${lang === "en" ? "en" : "pt"}.png`}
           width={32}
           height={32}
         />
