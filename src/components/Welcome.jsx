@@ -26,15 +26,17 @@ export const Welcome = () => {
   return (
     <section className="mt-16 px-[4px] mx-auto  max-w-[835px] w-full md:mb-[20px]">
       <div className="mb-6 md:max-w-[506px] md:mx-auto ">
-        <h1 className="font-semibold text-5xl leading-[72px] text-center mb-[24px]">
+        <h1 className="font-semibold text-5xl leading-[72px] text-center mb-[24px] animate-fade-up animate-delay-100 animate-ease-out">
           {hello}
         </h1>
         <p className="leading-6 text-center text-onBackground/75 md:text-[24px] md:leading-[36px]">
-          {description1}{" "}
-          <strong className=" text-onBackground/75 welcome-gradient">
-            {descriptionDetail}
-          </strong>{" "}
-          {description2}
+          <span className="animate-fade-up delay-500">{description1}</span>{" "}
+          <span className="animate-fade-up delay-700">
+            <strong className=" text-onBackground/75 welcome-gradient">
+              {descriptionDetail}
+            </strong>
+          </span>{" "}
+          <span className="animate-fade-up delay-1000">{description2}</span>
         </p>
       </div>
       <div className="carousel">
