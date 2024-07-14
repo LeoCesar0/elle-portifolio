@@ -15,7 +15,7 @@ export const PROJECTS = [
         },
       },
       {
-        link: "https://www.notion.com",
+        link: "https://www.notion.so/Cora-o-Animal-Estudo-de-caso-UX-39b406a1095a4e5184c92ae6082aea61",
         text: {
           en: "study case",
           pt: "caso de estudo",
@@ -50,7 +50,7 @@ export const PROJECTS = [
     },
     buttons: [
       {
-        link: "https://www.figma.com",
+        link: "https://www.figma.com/design/fHF7h7K9FREFND2N2KnCof/Ecommerce-App?node-id=4-481&t=2YbuC9JUOMquAQ9u-0",
         text: {
           en: "view in figma",
           pt: "view in figma",
@@ -67,7 +67,7 @@ export const PROJECTS = [
     },
     buttons: [
       {
-        link: "https://www.figma.com",
+        link: "https://www.figma.com/design/pDAmtPwObamANVr08hZ513/Remaking-%7C-Banco-do-Brasil?node-id=1-2&t=Bp2aRJjoFBb5lNwW-0",
         text: {
           en: "view in figma",
           pt: "view in figma",
