@@ -69,9 +69,11 @@ body {
   -webkit-text-fill-color: transparent;
 
   position: relative;
+  overflow: hidden;
+  display: inline-flex;
 }
 
-.welcome-gradient::before {
+.welcome-gradient::after {
   content: "";
   position: absolute;
   top: 0;

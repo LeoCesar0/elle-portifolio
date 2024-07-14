@@ -25,8 +25,8 @@ export const Welcome = () => {
 
   return (
     <section className="mt-16 px-[4px] mx-auto  max-w-[835px] w-full md:mb-[20px]">
-      <div className="mb-6 md:max-w-[506px] md:mx-auto ">
-        <h1 className="font-semibold text-5xl leading-[72px] text-center mb-[24px] animate-fade-up animate-delay-100 animate-ease-out">
+      <div className="mb-6  md:max-w-[506px] md:mx-auto ">
+        <h1 className="font-semibold text-5xl leading-[72px] text-center mb-[24px] animate-fade-up animate-delay-100 animate-ease-in-out">
           {hello}
         </h1>
         <p className="leading-6 text-center text-onBackground/75 md:text-[24px] md:leading-[36px]">
@@ -39,13 +39,7 @@ export const Welcome = () => {
           <span className="animate-fade-up delay-1000">{description2}</span>
         </p>
       </div>
-      {/* <div>
-        <img
-          className="w-full object-cover object-top hidden md:block"
-          src="images/avatar.png"
-          alt="Elle Avatar"
-        />
-      </div> */}
+
       <div className="carousel">
         <ol className="carousel__viewport md:hidden">
           {tags.map((tag, index) => (

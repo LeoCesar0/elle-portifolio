@@ -40,7 +40,7 @@ export const AboutSection = () => {
       </div>
       <img
         className="w-full object-cover object-top hidden md:block rounded-full"
-        src="images/profile.png"
+        src="images/avatar.png"
         alt="Elle Avatar"
       />
     </section>
