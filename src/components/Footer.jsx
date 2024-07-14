@@ -1,4 +1,5 @@
 import { useT } from "../hooks/useT";
+import { IconSend } from "./IconSend";
 import { SocialMediasList } from "./SocialMediasList";
 import { TechList } from "./TechList";
 
@@ -29,7 +30,8 @@ export const Footer = () => {
             }}
           >
             {emailText}
-            <img src="icons/send.svg" />
+            <IconSend />
+            {/* <img src="icons/send.svg" /> */}
           </button>
         </div>
         <div className="items-end justify-between hidden md:flex">

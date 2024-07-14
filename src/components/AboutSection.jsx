@@ -37,13 +37,17 @@ export const AboutSection = () => {
       const position = Math.random() * 100 + "%"; // Random horizontal position
       particle.style.left = position;
       particlesContainer.appendChild(particle);
-
+      
       setTimeout(() => {
         particle.remove(); // Remove particle after animation ends
       }, 1500); // Adjust timing to match animation duration
     }
 
-    setInterval(createParticle, 500);
+    const timeout = setInterval(createParticle, 500);
+
+    return () => {
+      clearTimeout(timeout);
+    };
   }, []);
 
   return (
