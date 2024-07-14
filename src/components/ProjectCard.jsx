@@ -16,7 +16,7 @@ export const ProjectCard = ({ project }) => {
       <img
         src={imagePath}
         alt={title}
-        className="project-image-shadow block mx-auto"
+        className="project-image-shadow block mx-auto object-cover min-h-[300px] sm:object-none sm:min-h-fit"
       />
       <div className="mt-6 md:mt-8 lg:mt-10 flex gap-2 lg:gap-3 flex-wrap sm:flex-nowrap items-center justify-between">
         {project.buttons.map((button, i) => {

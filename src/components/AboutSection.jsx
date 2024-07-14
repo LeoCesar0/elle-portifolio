@@ -39,8 +39,8 @@ export const AboutSection = () => {
         </div>
       </div>
       <img
-        className="w-full object-cover object-top hidden md:block"
-        src="images/avatar.png"
+        className="w-full object-cover object-top hidden md:block rounded-full"
+        src="images/profile.png"
         alt="Elle Avatar"
       />
     </section>

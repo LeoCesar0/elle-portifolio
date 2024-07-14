@@ -39,6 +39,13 @@ export const Welcome = () => {
           <span className="animate-fade-up delay-1000">{description2}</span>
         </p>
       </div>
+      {/* <div>
+        <img
+          className="w-full object-cover object-top hidden md:block"
+          src="images/avatar.png"
+          alt="Elle Avatar"
+        />
+      </div> */}
       <div className="carousel">
         <ol className="carousel__viewport md:hidden">
           {tags.map((tag, index) => (

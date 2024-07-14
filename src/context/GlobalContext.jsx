@@ -1,21 +1,22 @@
 import { useContext } from "react";
 import { useState } from "react";
 import { createContext } from "react";
+import useLocalStorage from "../hooks/useLocalStorage";
 
 const initialState = {
-  lang: "en",
   menuIsOpen: false,
 };
 
 const Context = createContext(null);
 
 export const GlobalContextProvider = ({ children }) => {
+  const [lang, setLang] = useLocalStorage("@elle-lang", "pt");
   const [state, setState] = useState(initialState);
 
   const switchLanguage = () => {
+    setLang(lang === "pt" ? "en" : "pt");
     setState((prev) => ({
       ...prev,
-      lang: prev.lang === "pt" ? "en" : "pt",
     }));
   };
   const toggleMenu = (value) => {
@@ -31,6 +32,7 @@ export const GlobalContextProvider = ({ children }) => {
         ...state,
         toggleMenu,
         switchLanguage,
+        lang,
       }}
     >
       {children}

@@ -39,13 +39,14 @@ export const ConceptSection = () => {
 
   return (
     <section className="grid grid-cols-1 gap-[56px] px-[4px] md:grid-cols-3 md:gap-[24px]">
-      {cards.map((card) => {
+      {cards.map((card, index) => {
         return (
           <Card
             key={card.imagePath}
             imagePath={card.imagePath}
             title={card.title}
             description={card.description}
+            index={index}
           />
         );
       })}

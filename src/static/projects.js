@@ -8,7 +8,7 @@ export const PROJECTS = [
     },
     buttons: [
       {
-        link: "https://www.figma.com",
+        link: "https://www.figma.com/design/t6yhAPPTDSIMBWjjY9p1Ue/Adopt-Pet?node-id=20-470&t=MZUiiIxhWNWjo5pJ-0",
         text: {
           en: "view in figma",
           pt: "view in figma",
@@ -33,7 +33,7 @@ export const PROJECTS = [
     },
     buttons: [
       {
-        link: "https://www.figma.com",
+        link: "https://www.figma.com/design/rB81Q5UjlT6a6n9JapXE7Z/Furniture?node-id=1-2&t=0VNTUImUU0Yk9JuP-0",
         text: {
           en: "view in figma",
           pt: "view in figma",
