@@ -11,7 +11,7 @@ export const PROJECTS = [
         link: "https://www.figma.com/design/t6yhAPPTDSIMBWjjY9p1Ue/Adopt-Pet?node-id=20-470&t=MZUiiIxhWNWjo5pJ-0",
         text: {
           en: "view in figma",
-          pt: "view in figma",
+          pt: "ver no figma",
         },
       },
       {
@@ -29,14 +29,14 @@ export const PROJECTS = [
     image: "furniture.png",
     description: {
       en: "Ecommerce custom upholstery store",
-      pt: "Loja de estofados personalizados de comércio eletrônico",
+      pt: "Loja de estofados personalizados",
     },
     buttons: [
       {
         link: "https://www.figma.com/design/rB81Q5UjlT6a6n9JapXE7Z/Furniture?node-id=1-2&t=0VNTUImUU0Yk9JuP-0",
         text: {
           en: "view in figma",
-          pt: "view in figma",
+          pt: "ver no figma",
         },
       },
     ],
@@ -53,7 +53,7 @@ export const PROJECTS = [
         link: "https://www.figma.com/design/fHF7h7K9FREFND2N2KnCof/Ecommerce-App?node-id=4-481&t=2YbuC9JUOMquAQ9u-0",
         text: {
           en: "view in figma",
-          pt: "view in figma",
+          pt: "ver no figma",
         },
       },
     ],
@@ -70,7 +70,7 @@ export const PROJECTS = [
         link: "https://www.figma.com/design/pDAmtPwObamANVr08hZ513/Remaking-%7C-Banco-do-Brasil?node-id=1-2&t=Bp2aRJjoFBb5lNwW-0",
         text: {
           en: "view in figma",
-          pt: "view in figma",
+          pt: "ver no figma",
         },
       },
     ],
