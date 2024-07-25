@@ -15,7 +15,7 @@ export const PROJECTS = [
         },
       },
       {
-        link: "https://www.notion.so/Cora-o-Animal-Estudo-de-caso-UX-39b406a1095a4e5184c92ae6082aea61",
+        link: "https://medium.com/@izaelleavrillavigne/estudo-de-caso-ui-ux-adopt-pet-8b0b057c64bd",
         text: {
           en: "study case",
           pt: "caso de estudo",
